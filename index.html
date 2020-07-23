@@ -1,52 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!--  import css for custom css -->
-    <link rel="stylesheet" href="style.css">
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-    <!-- ADDRESS BAR TEXT -->
-    <title>CaliforniaAutohouse</title>
-    <!-- import main js  -->
-    <script src="main.js"></script>
+  <!-- local js -->
+  <script src="./js/main.js"></script>
 
-  </head>
-  <!-- this is the viewable area to public --------------- -->
-  <body>
+  <script src="./js/contact.js"></script>
 
-    <!-- NAVBAR------------------------------------------------------------------- -->
+  <script src="https://kit.fontawesome.com/fbe1c3e845.js" crossorigin="anonymous"></script>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-            CaliforniaAutohouse
-          </a>
-       
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </div>
-        </div>
-      </nav>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="./css/widesreen.css">
 
-    <!-- BODY -------------------------------------------------------------------- -->
-    <h1>CaliforniaAutohouse</h1>
+  <title>California Autohaus </title>
+</head>
 
-    <!-- FOOTER ------------------------------------------------------------------ -->
+<body id="home">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <h1 class="logo">
+      <span class="text-primary">
+        <i class="fas fa-tools"></i> California
+      </span> Autohouse
+    </h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#who">Who</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!--  Header: showcase -->
+
+  <header id="showcase">
+    <div class="showcase-content">
+      <h1 class="l-heading">
+        Custom Dreams Become Custom Cars
+      </h1>
+      <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis expedita rerum in veniam, quibusdam sit?</P>
+      <a href="#what" class="btn">Read More</a>
+    </div>
+  </header>
+
+  <!-- FOOTER -->
+
+  <footer id="main-footer" class='bg-dark text-center py-1'>
+    <div class="container">
+      <p>Copyright &copy; 2019, California Autohouse, All rights Reserved</p>
+    </div>
+  </footer>
+
+
+
+
+  <!-- google maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4AxtGVw7JKYo3xMG2g16Odw3fB2wKKnI&callback=initMap"
+    async defer></script>
+</body>
+
 </html>
